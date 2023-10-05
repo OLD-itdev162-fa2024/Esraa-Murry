@@ -12,9 +12,9 @@ const Contact = ({ data }) => {
       <Seo title="Contact Us" />
       <h1>Contact Us</h1>
       <p>Please send all inquiries to:</p>
-      <div>{Saroo2aCAFE}</div>
+      <div>{company}</div>
       <div>{`C/O ${name}`}</div>
-      <div>{CAFESTREET5757}</div>
+      <div>{address}</div>
       <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
         <StaticImage
           src="../images/gatsby-icon.png"
